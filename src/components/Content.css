@@ -1,0 +1,28 @@
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.header-text h1 {
+    color: var(--dark-slate-grey);
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.header-text p {
+    margin: 1.5rem 0;
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 1rem;
+}
+
+.list-container p {
+    font-size: 14px;
+}

@@ -1,0 +1,18 @@
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.main-container {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 60%;
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 2rem auto;
+  border-radius: 30px;
+}
