@@ -6,48 +6,62 @@
   --white: hsl(0, 0%, 100%);
 }
 
-
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .error-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .error-container span {
-    color: var(--tomato);
-    font-size: 13px;
+  color: var(--tomato);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.err {
+  background-color: hsl(4, 100%, 87%);
+  border: 1px solid var(--tomato);
+  color: var(--tomato);
+}
+
+.noerr {
+  background-color: transparent;
+  border: 1px solid var(--grey);
+  color: var(--dark-slate-grey);
 }
 
 label {
-    color: var(--dark-slate-grey);
-    font-weight: 800;
-    font-size: 13px;
+  color: var(--dark-slate-grey);
+  font-weight: 800;
+  font-size: 13px;
 }
 
 .email {
-    padding: 12px 10px;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid var(--charcoal-grey);
-    margin-bottom: 10px;
+  padding: 12px 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
 }
 
 .email:placeholder {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn {
-    background-color: var(--dark-slate-grey);
-    color: var(--white);
-    padding: 15px 10px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 12px 0;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+  padding: 18px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
 }

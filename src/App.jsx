@@ -23,7 +23,8 @@ function App() {
       {thanks ? (
         <Thanks submittedEmail={submittedEmail}/>//Pass the gotten email to the thanks component, so we can display it
       ) : (
-        <div className="main-container">
+        <div className="container">
+          <div className="main-container">
           <div className="content-container">
             <Content />
              <Form onSubmit={handleFormSubmit} /> {/*Pass props to Form component to know when the form is submitted and to get the email that was submitted */}
@@ -31,6 +32,7 @@ function App() {
           <div className="img-container">
             <Image />
           </div>
+        </div>
         </div>
       )}
     </>
