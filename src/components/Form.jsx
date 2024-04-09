@@ -10,7 +10,7 @@ const Form = (props) => {
   const formCheck = (e) => {
     e.preventDefault();
     if (email == "") {
-      setError("Please fill in the form");
+      setError("Valid email required");
     } else {
       setError("");
       onSubmit(email);
@@ -28,7 +28,7 @@ const Form = (props) => {
           onChange={(e) => setEmail(e.target.value)}
           type="email"
           name="email"
-          className="email"
+          className={`email ${error ? 'err' : 'noerr'}`}
           placeholder="email@company.com"
           value={email}
         />

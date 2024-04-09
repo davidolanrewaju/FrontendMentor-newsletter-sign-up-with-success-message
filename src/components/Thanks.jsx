@@ -12,6 +12,6 @@ const Thanks = (props) => {
       <button>Dismiss message</button>
     </div>
   )
-}
+};
 
-export default Thanks
+export default Thanks;
